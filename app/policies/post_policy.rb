@@ -1,7 +1,10 @@
 class PostPolicy < ApplicationPolicy
   class Scope < Scope
     def resolve
-      if user.has_role?(:admin :lawyer)
+      if user.has_role?(:admin)
+        scope.all
+      elsif
+        user.has_role?(:lawyer)
         scope.all
       else
         scope.where(user: user)

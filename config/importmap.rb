@@ -9,3 +9,5 @@ pin "popper", to: 'popper.js', preload: true
 pin "@popperjs/core", to: "https://unpkg.com/@popperjs/core@2.11.6/dist/esm/index.js"
 pin "bootstrap", to: "https://ga.jspm.io/npm:bootstrap@5.2.2/dist/js/bootstrap.esm.js"
 pin "@fortawesome/fontawesome-free", to: "https://ga.jspm.io/npm:@fortawesome/fontawesome-free@6.2.0/js/all.js", preload: true
+pin "trix"
+pin "@rails/actiontext", to: "actiontext.js"
