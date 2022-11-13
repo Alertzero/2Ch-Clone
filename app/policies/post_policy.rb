@@ -23,7 +23,7 @@ class PostPolicy < ApplicationPolicy
   private
 
   def post?
-    record
+    post
   end
 
 end
